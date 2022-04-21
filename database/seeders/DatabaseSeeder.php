@@ -22,8 +22,8 @@ class DatabaseSeeder extends Seeder
     public function addUsers(): void
     {
         \DB::table('users')->delete();
-        \App\Models\User::create(['email' => 'user@gmail.com', 'password' => '123456']);
-        \App\Models\User::factory(5)->create();
+        \App\Models\User::create(['name' => 'user', 'email' => 'user@gmail.com', 'password' => '123456']);
+        \App\Models\User::factory(4)->create();
 
     }
     public function addPosts(): void

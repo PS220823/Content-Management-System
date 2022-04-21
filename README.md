@@ -3,7 +3,7 @@
 
 Clone this repository and install the dependencies.
 
-    $ git clone https://github.com/ozdemirburak/laravel-8-simple-cms.git && cd laravel-8-simple-cms
+    $ git clone https://github.com/PS220823/Content-Management-System.git && cd Content-Management-System
     $ composer install
 
 Run the command below to initialize. Do not forget to configure your .env file. 
